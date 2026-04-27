@@ -1,0 +1,6 @@
+/admin
+/login
+/backup
+/.git/
+/phpinfo.php
+/robots.txt
