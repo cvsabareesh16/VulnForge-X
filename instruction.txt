@@ -1,0 +1,81 @@
+VulnForge X - Full Usage Instructions
+
+1. Install requirements
+-----------------------
+Kali Linux:
+
+sudo apt update
+sudo apt install python3 python3-venv python3-pip nmap -y
+
+2. Run project
+--------------
+cd VulnForge-X
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 main.py
+
+3. First screen
+---------------
+You must type:
+I AGREE
+
+This confirms you will use the tool only on authorized targets.
+
+4. Best workflow
+----------------
+Use option [9] Run Full Auto Assessment.
+It runs:
+- Reconnaissance
+- Web analysis
+- Subdomain scan
+- Vulnerability analysis
+- Report generation
+
+5. Manual workflow
+------------------
+[1] Reconnaissance & Scanning
+[2] Enumeration & Vulnerability Analysis
+[3] Validation Assistant
+[4] Risk Dashboard
+[5] Generate Report
+
+6. Learning mode
+----------------
+Use option [7].
+Select English, Hindi, or Malayalam.
+Select topic and explanation type.
+
+7. Resume builder
+-----------------
+Use option [8].
+Enter your details manually.
+It creates TXT, MD, and HTML resumes in results/resumes/.
+
+8. Reports
+----------
+Reports are saved in results/reports/.
+
+9. GitHub upload
+----------------
+git init
+git add .
+git commit -m "Initial commit - VulnForge X"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/VulnForge-X.git
+git push -u origin main
+
+10. Important safety note
+-------------------------
+Do not scan public targets without permission.
+Use VulnHub, Metasploitable, TryHackMe, Hack The Box, or your own lab for practice.
+
+
+RESULTS FOLDER
+--------------
+Generated files are saved here:
+- results/scans/    : scan and analysis JSON files
+- results/reports/  : report files (.md, .txt, .html)
+- results/resumes/  : resume files (.txt, .md, .html)
+- results/logs/     : log files/future runtime logs
+- results/evidence/ : manual screenshots or proof notes
