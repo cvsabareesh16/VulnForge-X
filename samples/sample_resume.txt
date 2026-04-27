@@ -1,0 +1,16 @@
+SABAREESH CV
+Email: example@email.com | Phone: XXXXXXXX | Location: Kerala, India
+GitHub: github.com/yourname
+
+SUMMARY
+Cybersecurity learner with hands-on experience in vulnerability assessment, network scanning, web security analysis, Linux, and Python automation.
+
+SKILLS
+- Python, Nmap, Kali Linux, GitHub
+- Vulnerability Assessment, Web Security, Risk Analysis, Report Writing
+
+PROJECTS
+VulnForge X — Vulnerability Assessment & Career Toolkit
+- Developed a CLI-based vulnerability assessment and reporting framework.
+- Automated reconnaissance, web checks, risk scoring, and report generation.
+- Implemented multilingual learning and interview mode in English, Hindi, and Malayalam.
